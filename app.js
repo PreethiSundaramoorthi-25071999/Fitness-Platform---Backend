@@ -15,6 +15,7 @@ app.use(bodyParser.json());
 //
 // Use CORS
 app.use(cors());
+
 //
 app.use('/api/trainer', trainerRoutes);
 app.use('/api/users', usersRoutes);
